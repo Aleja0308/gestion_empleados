@@ -36,7 +36,7 @@
     <section>
       <h1>Deje su comentario</h1>
 
-      <form action="controlador" method="post">
+      <form action="controlador" method="post" enctype="multipart/form-data">
 
         <div>
           <input type="text" minlength="10" maxlength="40" required placeholder="Nombre" value="Alejandra Castellanos"
@@ -52,6 +52,23 @@
         </div>
 
         <div>
+          <input type="date">
+        </div>
+
+        <div>
+          <input type="time">
+        </div>
+
+        <div>
+
+        </div>
+        <input type="color">
+        <div>
+
+        <div>
+          <input type="file" accept=".pdf" multiple>
+        </div>
+
           <textarea name="contenido" id="contenido" cols="40" rows="20" required placeholder="Comentario">
           hhhhhhhhhhhhhhhhhhhhhhhh
         </textarea>
